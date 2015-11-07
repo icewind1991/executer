@@ -1,5 +1,9 @@
 # Executer
 
+[![Build Status](https://travis-ci.org/icewind1991/executer.svg?branch=master)](https://travis-ci.org/icewind1991/executer)
+[![Code Coverage](https://scrutinizer-ci.com/g/icewind1991/executer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/icewind1991/executer/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/icewind1991/executer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/icewind1991/executer/?branch=master)
+
 Eval php code in temporary files to enable debugging
 
 ```
