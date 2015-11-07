@@ -1,0 +1,23 @@
+{
+	"name": "icewind/executer",
+	"description": "Eval php code in temporary files to enable debugging",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Robin Appelman",
+			"email": "icewind@owncloud.com"
+		}
+	],
+	"require": {
+		"makasim/temp-file": "^0.2.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "5.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Icewind\\Executer\\Tests\\": "tests/",
+			"Icewind\\Executer\\": "src/"
+		}
+	}
+}
